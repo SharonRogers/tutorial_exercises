@@ -1,7 +1,7 @@
 <div class="panel panel-primary">
 
 	<!-- USER NAME -->
-	<div class="panel-heading" ng-click="collapse()">{{user.name}}</div>
+	<div class="class panel-heading" ng-click="collapse()">{{user.name}}</div>
 	
 	<!-- NAME -->
 	<div class="panel-body" ng-hide="collapsed">
@@ -12,7 +12,9 @@
 		<h4>Friends:</h4>
 		<ul>
 		    <li ng-repeat ="friend in user.friends">
-		    {{friend}}
+		    	{{friend}}
+			    <remove-friend method="removeFriend(friend)"></remove-friend>
+
 		    </li>
 		</ul>
 	<!-- RANK -->
