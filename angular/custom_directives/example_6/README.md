@@ -1,4 +1,4 @@
-EXAMPLE 5: 
+EXAMPLE 6: 
 	
 	Directive for video play and pause button on space bar event
 
@@ -7,3 +7,5 @@ EXAMPLE 5:
 	LINK FUNCTION
 		modify html elements while listening to events 
 		link function takes in 3 parameters scope, element and attributes
+
+	$scope.apply creates a new digest cycle when angular listens for exrternal events.
